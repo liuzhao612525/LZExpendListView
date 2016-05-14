@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252447AC1CE6E237005D65B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 252447AB1CE6E237005D65B1 /* main.m */; };
+		252447AF1CE6E237005D65B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 252447AE1CE6E237005D65B1 /* AppDelegate.m */; };
+		252447B81CE6E237005D65B1 /* LZExpendListView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 252447B61CE6E237005D65B1 /* LZExpendListView.xcdatamodeld */; };
+		252447BA1CE6E237005D65B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252447B91CE6E237005D65B1 /* Assets.xcassets */; };
+		252447BD1CE6E237005D65B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252447BB1CE6E237005D65B1 /* LaunchScreen.storyboard */; };
+		252447C81CE6E237005D65B1 /* LZExpendListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252447C71CE6E237005D65B1 /* LZExpendListViewTests.m */; };
+		252447D31CE6E237005D65B1 /* LZExpendListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252447D21CE6E237005D65B1 /* LZExpendListViewUITests.m */; };
+		252447E91CE6E44D005D65B1 /* LZExpendSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252447E81CE6E44D005D65B1 /* LZExpendSectionView.m */; };
+		252447EF1CE6F6BA005D65B1 /* LZExpendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252447EE1CE6F6BA005D65B1 /* LZExpendTableViewController.m */; };
+		252447F41CE6FA1A005D65B1 /* LZExampleExpendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252447F31CE6FA1A005D65B1 /* LZExampleExpendListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		252447C41CE6E237005D65B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2524479F1CE6E237005D65B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252447A61CE6E237005D65B1;
+			remoteInfo = LZExpendListView;
+		};
+		252447CF1CE6E237005D65B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2524479F1CE6E237005D65B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252447A61CE6E237005D65B1;
+			remoteInfo = LZExpendListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		252447A71CE6E237005D65B1 /* LZExpendListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZExpendListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		252447AB1CE6E237005D65B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		252447AD1CE6E237005D65B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		252447AE1CE6E237005D65B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		252447B71CE6E237005D65B1 /* LZExpendListView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LZExpendListView.xcdatamodel; sourceTree = "<group>"; };
+		252447B91CE6E237005D65B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		252447BC1CE6E237005D65B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		252447BE1CE6E237005D65B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252447C31CE6E237005D65B1 /* LZExpendListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZExpendListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		252447C71CE6E237005D65B1 /* LZExpendListViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZExpendListViewTests.m; sourceTree = "<group>"; };
+		252447C91CE6E237005D65B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252447CE1CE6E237005D65B1 /* LZExpendListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LZExpendListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		252447D21CE6E237005D65B1 /* LZExpendListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZExpendListViewUITests.m; sourceTree = "<group>"; };
+		252447D41CE6E237005D65B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252447E71CE6E44D005D65B1 /* LZExpendSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZExpendSectionView.h; sourceTree = "<group>"; };
+		252447E81CE6E44D005D65B1 /* LZExpendSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZExpendSectionView.m; sourceTree = "<group>"; };
+		252447ED1CE6F6BA005D65B1 /* LZExpendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZExpendTableViewController.h; sourceTree = "<group>"; };
+		252447EE1CE6F6BA005D65B1 /* LZExpendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZExpendTableViewController.m; sourceTree = "<group>"; };
+		252447F21CE6FA1A005D65B1 /* LZExampleExpendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZExampleExpendListViewController.h; sourceTree = "<group>"; };
+		252447F31CE6FA1A005D65B1 /* LZExampleExpendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZExampleExpendListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252447A41CE6E237005D65B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252447C01CE6E237005D65B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252447CB1CE6E237005D65B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2524479E1CE6E237005D65B1 = {
+			isa = PBXGroup;
+			children = (
+				252447A91CE6E237005D65B1 /* LZExpendListView */,
+				252447C61CE6E237005D65B1 /* LZExpendListViewTests */,
+				252447D11CE6E237005D65B1 /* LZExpendListViewUITests */,
+				252447A81CE6E237005D65B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252447A81CE6E237005D65B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252447A71CE6E237005D65B1 /* LZExpendListView.app */,
+				252447C31CE6E237005D65B1 /* LZExpendListViewTests.xctest */,
+				252447CE1CE6E237005D65B1 /* LZExpendListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		252447A91CE6E237005D65B1 /* LZExpendListView */ = {
+			isa = PBXGroup;
+			children = (
+				252447E01CE6E25E005D65B1 /* Class */,
+				252447AD1CE6E237005D65B1 /* AppDelegate.h */,
+				252447AE1CE6E237005D65B1 /* AppDelegate.m */,
+				252447F21CE6FA1A005D65B1 /* LZExampleExpendListViewController.h */,
+				252447F31CE6FA1A005D65B1 /* LZExampleExpendListViewController.m */,
+				252447B91CE6E237005D65B1 /* Assets.xcassets */,
+				252447BB1CE6E237005D65B1 /* LaunchScreen.storyboard */,
+				252447BE1CE6E237005D65B1 /* Info.plist */,
+				252447B61CE6E237005D65B1 /* LZExpendListView.xcdatamodeld */,
+				252447AA1CE6E237005D65B1 /* Supporting Files */,
+			);
+			path = LZExpendListView;
+			sourceTree = "<group>";
+		};
+		252447AA1CE6E237005D65B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				252447AB1CE6E237005D65B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		252447C61CE6E237005D65B1 /* LZExpendListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				252447C71CE6E237005D65B1 /* LZExpendListViewTests.m */,
+				252447C91CE6E237005D65B1 /* Info.plist */,
+			);
+			path = LZExpendListViewTests;
+			sourceTree = "<group>";
+		};
+		252447D11CE6E237005D65B1 /* LZExpendListViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				252447D21CE6E237005D65B1 /* LZExpendListViewUITests.m */,
+				252447D41CE6E237005D65B1 /* Info.plist */,
+			);
+			path = LZExpendListViewUITests;
+			sourceTree = "<group>";
+		};
+		252447E01CE6E25E005D65B1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				252447E71CE6E44D005D65B1 /* LZExpendSectionView.h */,
+				252447E81CE6E44D005D65B1 /* LZExpendSectionView.m */,
+				252447ED1CE6F6BA005D65B1 /* LZExpendTableViewController.h */,
+				252447EE1CE6F6BA005D65B1 /* LZExpendTableViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252447A61CE6E237005D65B1 /* LZExpendListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252447D71CE6E237005D65B1 /* Build configuration list for PBXNativeTarget "LZExpendListView" */;
+			buildPhases = (
+				252447A31CE6E237005D65B1 /* Sources */,
+				252447A41CE6E237005D65B1 /* Frameworks */,
+				252447A51CE6E237005D65B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZExpendListView;
+			productName = LZExpendListView;
+			productReference = 252447A71CE6E237005D65B1 /* LZExpendListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		252447C21CE6E237005D65B1 /* LZExpendListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252447DA1CE6E237005D65B1 /* Build configuration list for PBXNativeTarget "LZExpendListViewTests" */;
+			buildPhases = (
+				252447BF1CE6E237005D65B1 /* Sources */,
+				252447C01CE6E237005D65B1 /* Frameworks */,
+				252447C11CE6E237005D65B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252447C51CE6E237005D65B1 /* PBXTargetDependency */,
+			);
+			name = LZExpendListViewTests;
+			productName = LZExpendListViewTests;
+			productReference = 252447C31CE6E237005D65B1 /* LZExpendListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		252447CD1CE6E237005D65B1 /* LZExpendListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252447DD1CE6E237005D65B1 /* Build configuration list for PBXNativeTarget "LZExpendListViewUITests" */;
+			buildPhases = (
+				252447CA1CE6E237005D65B1 /* Sources */,
+				252447CB1CE6E237005D65B1 /* Frameworks */,
+				252447CC1CE6E237005D65B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				252447D01CE6E237005D65B1 /* PBXTargetDependency */,
+			);
+			name = LZExpendListViewUITests;
+			productName = LZExpendListViewUITests;
+			productReference = 252447CE1CE6E237005D65B1 /* LZExpendListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2524479F1CE6E237005D65B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuzhao;
+				TargetAttributes = {
+					252447A61CE6E237005D65B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					252447C21CE6E237005D65B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 252447A61CE6E237005D65B1;
+					};
+					252447CD1CE6E237005D65B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 252447A61CE6E237005D65B1;
+					};
+				};
+			};
+			buildConfigurationList = 252447A21CE6E237005D65B1 /* Build configuration list for PBXProject "LZExpendListView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2524479E1CE6E237005D65B1;
+			productRefGroup = 252447A81CE6E237005D65B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252447A61CE6E237005D65B1 /* LZExpendListView */,
+				252447C21CE6E237005D65B1 /* LZExpendListViewTests */,
+				252447CD1CE6E237005D65B1 /* LZExpendListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		252447A51CE6E237005D65B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252447BD1CE6E237005D65B1 /* LaunchScreen.storyboard in Resources */,
+				252447BA1CE6E237005D65B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252447C11CE6E237005D65B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252447CC1CE6E237005D65B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252447A31CE6E237005D65B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252447AF1CE6E237005D65B1 /* AppDelegate.m in Sources */,
+				252447EF1CE6F6BA005D65B1 /* LZExpendTableViewController.m in Sources */,
+				252447E91CE6E44D005D65B1 /* LZExpendSectionView.m in Sources */,
+				252447B81CE6E237005D65B1 /* LZExpendListView.xcdatamodeld in Sources */,
+				252447AC1CE6E237005D65B1 /* main.m in Sources */,
+				252447F41CE6FA1A005D65B1 /* LZExampleExpendListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252447BF1CE6E237005D65B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252447C81CE6E237005D65B1 /* LZExpendListViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		252447CA1CE6E237005D65B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252447D31CE6E237005D65B1 /* LZExpendListViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		252447C51CE6E237005D65B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252447A61CE6E237005D65B1 /* LZExpendListView */;
+			targetProxy = 252447C41CE6E237005D65B1 /* PBXContainerItemProxy */;
+		};
+		252447D01CE6E237005D65B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 252447A61CE6E237005D65B1 /* LZExpendListView */;
+			targetProxy = 252447CF1CE6E237005D65B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		252447BB1CE6E237005D65B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				252447BC1CE6E237005D65B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		252447D51CE6E237005D65B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252447D61CE6E237005D65B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		252447D81CE6E237005D65B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZExpendListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.LZExpendListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		252447D91CE6E237005D65B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LZExpendListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.LZExpendListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		252447DB1CE6E237005D65B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZExpendListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.LZExpendListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZExpendListView.app/LZExpendListView";
+			};
+			name = Debug;
+		};
+		252447DC1CE6E237005D65B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LZExpendListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.LZExpendListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LZExpendListView.app/LZExpendListView";
+			};
+			name = Release;
+		};
+		252447DE1CE6E237005D65B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZExpendListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.LZExpendListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZExpendListView;
+			};
+			name = Debug;
+		};
+		252447DF1CE6E237005D65B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LZExpendListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LZ.LZExpendListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LZExpendListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252447A21CE6E237005D65B1 /* Build configuration list for PBXProject "LZExpendListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252447D51CE6E237005D65B1 /* Debug */,
+				252447D61CE6E237005D65B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252447D71CE6E237005D65B1 /* Build configuration list for PBXNativeTarget "LZExpendListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252447D81CE6E237005D65B1 /* Debug */,
+				252447D91CE6E237005D65B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252447DA1CE6E237005D65B1 /* Build configuration list for PBXNativeTarget "LZExpendListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252447DB1CE6E237005D65B1 /* Debug */,
+				252447DC1CE6E237005D65B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252447DD1CE6E237005D65B1 /* Build configuration list for PBXNativeTarget "LZExpendListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252447DE1CE6E237005D65B1 /* Debug */,
+				252447DF1CE6E237005D65B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		252447B61CE6E237005D65B1 /* LZExpendListView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				252447B71CE6E237005D65B1 /* LZExpendListView.xcdatamodel */,
+			);
+			currentVersion = 252447B71CE6E237005D65B1 /* LZExpendListView.xcdatamodel */;
+			path = LZExpendListView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2524479F1CE6E237005D65B1 /* Project object */;
+}
